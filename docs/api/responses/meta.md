@@ -136,6 +136,6 @@ Used as a response for [`defineCatalogHandler`](../requests/defineCatalogHandler
 
 ``links`` - _optional_ - array of [``Meta Link objects``](#meta-link-object), can be used to link to internal pages of Stremio, example usage: array of actor / genre / director links
 
-``description`` - _optional_ - string, a few sentances describing your content
+``description`` - _optional_ - string, a few sentences describing your content
 
 ``trailers`` - _optional_ - array, containing objects in the form of `{ "source": "P6AaSMfXHbA", "type": "Trailer" }`, where `source` is a YouTube Video ID and `type` can be either `Trailer` or `Clip` (warning: this will soon be deprecated in favor of `meta.trailers` being an array of [``Stream Objects``](./stream.md))

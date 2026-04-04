@@ -39,7 +39,7 @@ function getRouter({ manifest , get }) {
 
 	router.get(`${configPrefix}/manifest.json`, manifestHandler)
 
-	// using the same methode used in builder.js to extract resources from manifest
+	// using the same method used in builder.js to extract resources from manifest
 	const handlersInManifest = []
 	if (manifest.catalogs.length > 0) handlersInManifest.push('catalog')
 	manifest.resources.forEach((r) => handlersInManifest.push(r.name || r))
