@@ -39,7 +39,7 @@ builder.defineStreamHandler(function(args) {
 
 serveHTTP(builder.getInterface(), { port: 7000 })
 
-// If you want this addon to appear in the addon catalogs, call .publishToCentral() with the publically available URL to your manifest
+// If you want this addon to appear in the addon catalogs, call .publishToCentral() with the publicly available URL to your manifest
 //publishToCentral('https://my-addon.com/manifest.json')
 
 ```

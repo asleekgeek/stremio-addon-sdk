@@ -49,7 +49,7 @@ builder.defineStreamHandler(function(args) {
 })
 
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 7000 })
-//publishToCentral("https://your-domain/manifest.json") // <- invoke this if you want to publish your addon and it's accessible publically on "your-domain"
+//publishToCentral("https://your-domain/manifest.json") // <- invoke this if you want to publish your addon and it's accessible publicly on "your-domain"
 ```
 
 Save this as `addon.js` and run:
@@ -120,7 +120,7 @@ In order for your addon to be used by others, it needs to be deployed online.
 
 You can check our [list of recommended hosting providers for Node.js](./docs/deploying/README.md) or alternatively host it locally with [localtunnel](https://github.com/localtunnel/localtunnel).
 
-After you've deployed publically, in order to get your addon to show in Stremio (through the [public Addon collection](https://api.strem.io/addonscollection.json)), you need to use [publishToCentral](./docs/README.md#publishtocentralurl) or publish [manually through the UI](https://stremio.github.io/stremio-publish-addon/index.html).
+After you've deployed publicly, in order to get your addon to show in Stremio (through the [public Addon collection](https://api.strem.io/addonscollection.json)), you need to use [publishToCentral](./docs/README.md#publishtocentralurl) or publish [manually through the UI](https://stremio.github.io/stremio-publish-addon/index.html).
 
 ## Examples & tutorials
 
